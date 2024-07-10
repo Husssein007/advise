@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Clothing Adviser</title>
+</head>
+<body>
+    <script src="script.js"></script>
+     
+    <h1>Weather Clothing Adviser</h1>
+    <label for="temperature">Enter the current temperature (°C): </label>
+    <input type="number" id="temperature" name="temperature">
+    <br><br>
+    <label for="raining">Is it raining? </label>
+    <select id="raining" name="raining">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+    <br><br>
+    <button onclick="adviseClothing()">Submit</button>
+    <p id="advice"></p> 
+</body>
+</html>
